@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.title-row p{
+    font-size: 14px;
+}
+.underline{
+    height: 4px;
+}
+
+
+/* team section */
+#team-sec{
+    background-color: #f7f8fa;
+}
+.team-icon a{
+    color: #434242;
+}
+.team-icon a:hover{
+    color: #f8c008;
+    transition: all 0.5s ease;
+}
+.team-icon{
+    position:absolute;
+    bottom: 25%;
+    background-color: #f9f8f8e2;
+    display: none;
+}
+.team-card{
+    position: relative;
+}
+.team-card:hover .team-icon{
+    display: block;
+    transition: all 0.5s  ease;
+}
